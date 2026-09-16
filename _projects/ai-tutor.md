@@ -1,6 +1,6 @@
 ---
 layout: page
-title: An AI tutor for formative feedback
+title: SAIL — Socratic AI Learning Framework
 permalink: /projects/ai-tutor/
 description: Creating dialogue that helps students examine and revise their reasoning.
 importance: 1
@@ -16,7 +16,7 @@ One instructor cannot speak with every student at every moment. I am interested 
 
 ## What I developed
 
-I developed a website that provides students with a purpose-built large language model tutor. In a typical activity, students first formulate their own solution and then use the tutor to test their reasoning.
+I developed SAIL (Socratic AI Learning Framework), a website that provides students with a purpose-built large language model tutor. In a typical activity, students first formulate their own solution and then use the tutor to test their reasoning.
 
 The tutor is prompted to challenge assumptions, pose follow-up questions, and help students identify gaps. The activity keeps the student's own attempt at the center of the conversation.
 

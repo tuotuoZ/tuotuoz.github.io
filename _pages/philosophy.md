@@ -29,7 +29,7 @@ I developed a website with a purpose-built large language model tutor. Students 
 
 This creates an additional opportunity for individualized dialogue. It also asks students to examine and verify AI responses. My aim is to expand opportunities for thinking, feedback, and revision while keeping students' intellectual work and the instructor's judgment central.
 
-[Read about the AI tutor]({{ '/projects/ai-tutor/' | relative_url }}).
+[Read about SAIL]({{ '/projects/ai-tutor/' | relative_url }}).
 
 ## Offer multiple routes to rigorous learning goals
 

@@ -3,7 +3,7 @@
 This file is excluded from the generated website.
 
 - Biography, credentials, dates, roles, and technical skills: `../output/pdf/Boming_Zhang_Resume_Updated.pdf`.
-- Philosophy and the AI-tutor/visual-explanation project descriptions: `../Master_Teaching_Statement.md`.
+- Philosophy and the SAIL/visual-explanation project descriptions: `../Master_Teaching_Statement.md`. The owner supplied the project name SAIL (Socratic AI Learning Framework).
 - MathSpring overview: the résumé's UMass Center for Knowledge and Communication role; it describes a contribution, not sole authorship.
 - Downloadable résumé: public copy of the existing résumé, with phone and ZIP removed. The original remains unchanged outside this repository.
 - Both pending degrees retain the expected December 2026 date.
