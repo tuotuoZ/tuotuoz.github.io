@@ -16,4 +16,4 @@ This file is excluded from the generated website.
 - Add a chosen headshot if desired; no placeholder portrait is used.
 - The first visualization video is included. Add more project demonstrations or artifacts when selected. No project result or learning outcome has been invented.
 - Publication metadata is incomplete in the source résumé, so no fabricated publication page or citation is included.
-- `tuotuoZ` comes from the résumé. `_config.yml` targets `https://tuotuoz.github.io`; no remote repository has been created or overwritten.
+- `tuotuoZ` comes from the résumé. The owner authorized GitHub publishing, and the public source repository is [tuotuoZ/tuotuoz.github.io](https://github.com/tuotuoZ/tuotuoz.github.io). `_config.yml` targets `https://tuotuoz.github.io`; deployment status is available in the repository's Actions tab.
