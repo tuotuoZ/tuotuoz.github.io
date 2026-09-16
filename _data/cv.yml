@@ -1,0 +1,97 @@
+cv:
+  name: Boming Zhang
+  label: Computer science educator and Ph.D. candidate
+  email: bomingzhang@umass.edu
+  location: Amherst, MA
+  summary: Computer science Ph.D. candidate and AI education practitioner with experience in intelligent tutoring systems, classroom LLM integrations, computer vision, and project-based machine learning curricula.
+  social_networks:
+    - network: GitHub
+      username: tuotuoZ
+  sections:
+    Experience:
+      - company: X School
+        position: School Instructor & Curriculum Designer
+        start_date: "2026-05"
+        end_date: present
+        summary: May 2026–Present
+        highlights:
+          - Teach advanced machine learning to high school students through project-based coding labs and applied demonstrations.
+          - Design classroom LLM workflows emphasizing responsible use, prompt literacy, and reflection.
+          - Implement student dialogue interfaces and teacher dashboards.
+      - company: Center for Knowledge and Communication, UMass Amherst
+        position: Software Engineer / Research Assistant
+        start_date: "2020-04"
+        end_date: present
+        summary: April 2020–Present
+        highlights:
+          - Develop and deploy the MathSpring intelligent tutoring system on AWS.
+          - Create interactive multimedia mathematics problems aligned with K–12 curriculum standards.
+          - Design games and activities for the Wearable Learning Cloud Platform.
+      - company: Office of the Attorney General, Massachusetts — Digital Evidence Lab
+        position: UMass Intern
+        start_date: "2024-01"
+        end_date: "2024-08"
+        summary: January–August 2024
+        highlights:
+          - Integrate scene detection and GPU-accelerated video processing with PySceneDetect and decord.
+          - Automate extraction of timestamped frames and develop a video lookup interface.
+          - Deliver live tutorials and remote demonstrations for staff.
+      - company: iDTech
+        position: On-Campus Instructor
+        start_date: "2023-06"
+        end_date: "2023-08"
+        summary: June–August 2023
+        highlights:
+          - Deliver AI-focused lessons through coding, lectures, assessments, and individualized student support.
+      - company: Center for Data Science, UMass Amherst — Scholarship America Project
+        position: Data Science Fellow
+        start_date: "2022-05"
+        end_date: "2022-08"
+        summary: May–August 2022
+        highlights:
+          - Clean and analyze more than 300,000 student records to evaluate scholarship allocation patterns.
+          - Investigate disparities in scholarship outcomes and contribute to public-facing reports.
+      - company: MIT Poggio Lab, Center for Brains, Minds + Machines
+        position: Undergraduate Research Assistant
+        start_date: "2018-05"
+        end_date: "2018-08"
+        summary: May–August 2018
+        highlights:
+          - Develop R modules for neural decoding and reproducible research workflows.
+          - Deploy computational tasks on AWS and create Docker research environments.
+    Education:
+      - institution: University of Massachusetts Amherst
+        studyType: Ph.D. candidate
+        area: Computer Science
+        date: "2026"
+        highlights:
+          - Expected December 2026
+      - institution: University of Massachusetts Amherst
+        studyType: Ed.S. candidate
+        area: Mathematics, Science, & Learning Technologies
+        date: "2026"
+        highlights:
+          - Expected December 2026
+      - institution: University of Massachusetts Amherst
+        studyType: M.S.
+        area: Computer Science
+        date: "2021"
+        highlights:
+          - May 2021
+          - Bay State Master's Program
+      - institution: Hampshire College
+        studyType: B.A.
+        area: Computer Science
+        date: "2019"
+        highlights:
+          - May 2019
+          - Innovator Award for Problem Solving
+    Skills:
+      - name: Languages & frameworks
+        keywords: Python, Java, R, Swift, JavaScript/React, Clojure, Django
+      - name: AI & data
+        keywords: PyTorch, YOLOv5, ffmpeg, PySceneDetect, decord, data visualization, educational data mining
+      - name: Systems & databases
+        keywords: AWS, Docker, MongoDB, MySQL, Git, web dashboards, video-processing pipelines
+      - name: Applied areas
+        keywords: Machine learning, computer vision, classroom LLM integration, intelligent tutoring systems

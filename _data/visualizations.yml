@@ -1,0 +1,25 @@
+- id: batch-layer-normalization
+  title: "Batch and Layer Normalization: One Score, Two Reference Frames"
+  video: /assets/video/batch-layer-normalization.mp4
+  poster: /assets/img/visualizations/batch-layer-normalization.jpg
+  duration: 1 min 28 sec
+  summary: >-
+    A test-score analogy follows one chemistry score through two different reference groups.
+    Highlighted rows and columns, number lines, and worked calculations connect familiar
+    classroom scores to examples and features in a neural network.
+  learning_goal: >-
+    Distinguish normalization across examples for each feature from normalization across
+    features within one example, and explain why the same value can yield different z-scores.
+  prompt: >-
+    Pause before the side-by-side comparison at 1:11. Why can Lin's chemistry score be
+    above the class average but below Lin's own average across subjects?
+  text_alternative: |
+    A table contains ten students and five subjects. Students represent examples, and subjects represent features. Lin scores 38.5 out of 50 in chemistry, equivalent to 77%. Scores are first converted to percentages so the subjects share a common scale.
+
+    **Batch normalization:** the chemistry column is highlighted in blue. Its values are 77, 72, 82, 62, 77, 57, 72, 52, 62, and 57. Their mean is 67 and their population standard deviation is approximately 9.747. Subtracting the mean from Lin's 77 and dividing by that standard deviation gives approximately **+1.026**. The animation repeats this operation independently for every subject column.
+
+    **Layer normalization:** Lin's row is highlighted in pink. Lin's scores are 84, 78, 87.5, 82, and 77. Their mean is 81.7 and their population standard deviation is approximately 3.868. Normalizing the chemistry score within this row gives approximately **−1.215**. The operation is repeated independently for every student row.
+
+    The comparison shows that Lin's chemistry score is above the chemistry class average and below Lin's average across subjects. The z-scores describe those reference groups; they are not new percentages or grades.
+
+    The closing formula subtracts the selected mean, divides by the square root of variance plus epsilon, and then applies learned scale and shift. The hand calculation uses epsilon zero, scale one, and shift zero. The animation identifies batch statistics during training for BatchNorm and each example's own features for LayerNorm. There is no audio.
