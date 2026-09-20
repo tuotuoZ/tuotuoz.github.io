@@ -46,13 +46,18 @@ My growth mindset, served warm: I started with abstract foam art, practiced _a l
     min-width: 0;
     margin: 0;
   }
+  .latte-gallery .latte-frame {
+    display: block;
+    position: relative;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 6px;
+  }
   .latte-gallery img {
     display: block;
-    width: 100%;
+    position: absolute;
+    max-width: none;
     height: auto;
-    aspect-ratio: 1;
-    object-fit: cover;
-    border-radius: 6px;
   }
   .latte-gallery figcaption {
     margin-top: 0.65rem;
@@ -67,7 +72,7 @@ My growth mindset, served warm: I started with abstract foam art, practiced _a l
 
 <div class="latte-gallery">
   <figure>
-    <a href="{{ '/assets/img/latte/01-early-pour.jpg' | relative_url }}">
+    <a class="latte-frame" href="{{ '/assets/img/latte/01-early-pour.jpg' | relative_url }}">
       <img
         src="{{ '/assets/img/latte/01-early-pour.jpg' | relative_url }}"
         alt="An early latte pour with a simple, off-center foam heart"
@@ -75,13 +80,13 @@ My growth mindset, served warm: I started with abstract foam art, practiced _a l
         height="1200"
         loading="lazy"
         decoding="async"
-        style="object-position: center 25%;"
+        style="width: 115.385%; left: -7.692%; top: -5.128%; transform-origin: 50% 35.833%; transform: rotate(-90deg);"
       >
     </a>
     <figcaption><strong>01.</strong> Abstract beginnings</figcaption>
   </figure>
   <figure>
-    <a href="{{ '/assets/img/latte/02-taking-heart.jpg' | relative_url }}">
+    <a class="latte-frame" href="{{ '/assets/img/latte/02-taking-heart.jpg' | relative_url }}">
       <img
         src="{{ '/assets/img/latte/02-taking-heart.jpg' | relative_url }}"
         alt="A later latte pour with a layered heart pattern"
@@ -89,13 +94,13 @@ My growth mindset, served warm: I started with abstract foam art, practiced _a l
         height="900"
         loading="lazy"
         decoding="async"
-        style="object-position: 40% center;"
+        style="width: 162.162%; left: -16.216%; top: -11.081%; transform-origin: 40.833% 50.222%; transform: rotate(12deg);"
       >
     </a>
     <figcaption><strong>02.</strong> Taking heart</figcaption>
   </figure>
   <figure>
-    <a href="{{ '/assets/img/latte/03-new-leaf.jpg' | relative_url }}">
+    <a class="latte-frame" href="{{ '/assets/img/latte/03-new-leaf.jpg' | relative_url }}">
       <img
         src="{{ '/assets/img/latte/03-new-leaf.jpg' | relative_url }}"
         alt="A more detailed latte pour with a layered leaf pattern"
@@ -103,6 +108,7 @@ My growth mindset, served warm: I started with abstract foam art, practiced _a l
         height="900"
         loading="lazy"
         decoding="async"
+        style="width: 173.913%; left: -33.623%; top: -17.391%; transform-origin: 48.083% 51.667%; transform: rotate(18deg);"
       >
     </a>
     <figcaption><strong>03.</strong> Turning over a new leaf</figcaption>
