@@ -9,6 +9,18 @@ nav_order: 6
 
 I'm a computer science Ph.D. candidate at the University of Massachusetts Amherst, where I am also pursuing an Education Specialist degree in Mathematics, Science, and Learning Technologies. My work brings together software development, AI, and the design of learning experiences.
 
+<figure style="max-width: 760px; margin: 1.5rem auto;">
+  <img
+    src="{{ '/assets/img/portraits/boming-zhang-about.jpg' | relative_url }}"
+    alt="Boming Zhang standing with arms crossed"
+    width="1500"
+    height="1000"
+    loading="lazy"
+    decoding="async"
+    style="display: block; width: 100%; height: auto; border-radius: 6px;"
+  >
+</figure>
+
 ## My path into computer science
 
 I transferred into computer science during my sophomore year at Hampshire College. Later, as a graduate student, I experienced how much thoughtful guidance can matter when unfamiliar mathematical ideas feel out of reach. Those experiences shape how I teach: maintain the intellectual challenge while making the path into the material more visible.

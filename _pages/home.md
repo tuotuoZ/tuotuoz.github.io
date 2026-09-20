@@ -5,8 +5,7 @@ permalink: /
 subtitle: Computer science education · AI & learning technologies
 nav: false
 nav_order: 1
-profile:
-  image: false
+profile: false
 selected_papers: false
 social: true
 announcements:
@@ -14,6 +13,36 @@ announcements:
 latest_posts:
   enabled: false
 ---
+
+<style>
+  .home-portrait {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto 1.5rem;
+  }
+  @media (min-width: 576px) {
+    .home-portrait {
+      float: right;
+      width: 30%;
+      margin: 0 0 1.5rem 1.5rem;
+    }
+  }
+</style>
+
+<figure class="home-portrait">
+  <div style="position: relative; aspect-ratio: 4 / 5; overflow: hidden; border-radius: 6px;">
+    <img
+      src="{{ '/assets/img/portraits/boming-zhang-profile.jpg' | relative_url }}"
+      alt="Portrait of Boming Zhang"
+      width="1200"
+      height="1800"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
+      style="position: absolute; width: 150%; max-width: none; height: auto; left: -25%; top: -21%;"
+    >
+  </div>
+</figure>
 
 I'm **Boming Zhang**, a computer science Ph.D. candidate at the **University of Massachusetts Amherst**. My work connects AI, educational technology, and teaching.
 
