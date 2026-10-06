@@ -4,7 +4,7 @@ title: Resources
 permalink: /resources/
 description: Inspiration for helping learners reason about AI and computer science.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 ## Helping learners reason about AI and computer science

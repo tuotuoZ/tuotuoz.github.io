@@ -4,7 +4,7 @@ title: Résumé
 permalink: /cv/
 description: Experience, education, and technical skills.
 nav: true
-nav_order: 3
+nav_order: 4
 cv_format: rendercv
 ---
 

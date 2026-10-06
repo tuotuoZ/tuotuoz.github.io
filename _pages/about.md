@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 description: The experiences and questions that shape my work as an educator.
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 I'm a computer science Ph.D. candidate at the University of Massachusetts Amherst, where I am also pursuing an Education Specialist degree in Mathematics, Science, and Learning Technologies. My work brings together software development, AI, and the design of learning experiences.

@@ -50,7 +50,7 @@ I build intelligent tutoring tools, design machine learning experiences, and cre
 
 I believe ability develops through learning. My goal is to help students strengthen their technical skills and see themselves as people who can continue growing in computer science.
 
-[Explore selected work]({{ "/projects/" | relative_url }}) · [View my résumé]({{ "/cv/" | relative_url }})
+[Explore selected work]({{ "/projects/" | relative_url }}) · [Read my publications]({{ "/publications/" | relative_url }}) · [View my résumé]({{ "/cv/" | relative_url }})
 
 ## What I work on
 

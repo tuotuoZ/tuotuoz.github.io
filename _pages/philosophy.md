@@ -4,7 +4,7 @@ title: Teaching philosophy
 permalink: /philosophy/
 description: High expectations, structured support, and opportunities to grow.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 I teach computer science with the conviction that **ability is developed, not predetermined**. Students enter college with unequal prior opportunities, but every student should encounter high expectations, structured support, and repeated opportunities to improve. I want students to leave my courses with stronger technical skills and the belief that they can continue growing as computer scientists and mathematicians.
